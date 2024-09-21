@@ -12,11 +12,11 @@ const MainContent = () => {
     return (
         <div className="bg-white">
             {/* First Div with Image and Text */}
-            <div className="w-full px-4 py-8 flex flex-col lg:flex-row items-center justify-center">
+            <div className="w-full lg:h-[500px] px-4 py-8 flex flex-col lg:flex-row items-center justify-center">
                 {/* Image */}
-                <div className="relative flex justify-center mb-8 lg:mb-0">
-                    <img src={buildingImage} alt="view" className="w-full max-w-[496px] h-auto object-cover z-20 rounded-xl" />
-                    <div className='absolute w-1/2 h-1/2 top-[-10%] left-[-10%] transform rotate-[108.85deg] lg:w-[254px] lg:h-[274px] lg:top-[-48px] lg:left-[-64px]'>
+                <div className="relative flex justify-center mb-4 lg:mb-0">
+                    <img src={buildingImage} alt="view" className="w-full lg:w-[496px] lg:h-[372px] object-cover z-20 rounded-xl" />
+                    <div className='hidden lg:block absolute w-1/2 h-1/2 top-[-10%] left-[-10%] transform rotate-[108.85deg] lg:w-[254px] lg:h-[274px] lg:top-[-48px] lg:left-[-64px]'>
                         <img src={blob2} alt="view" className="absolute top-0 left-0 w-full h-full z-10 transform rotate-[-108.85deg] mix-blend-multiply" />
                     </div>
                 </div>
@@ -74,20 +74,20 @@ const MainContent = () => {
             </div>
 
             {/* Third div */}
-            <div className="w-full px-4 py-8 flex flex-col lg:flex-row items-center justify-center">
+            <div className="w-full lg:h-[500px] px-4 py-8 flex flex-col lg:flex-row items-center justify-center">
                 {/* Text Section */}
-                <div className="relative w-full lg:w-[597px] text-left mb-8 lg:mb-0">
+                <div className="relative w-full lg:w-[597px] lg:h-[372px] text-left mb-8 lg:mb-0">
                     <h2 className="font-overlock text-2xl lg:text-4xl text-[#FF6B38] font-bold mb-4">
                         Schrijf je in voor onze nieuwsbrief
                     </h2>
                     <p className="font-poppins text-sm lg:text-base font-normal text-black mb-3">
                         Bij KnusWonen zetten we ons in om onze woningen energiezuiniger en duurzamer te maken. We verbeteren de isolatie met dubbelglas en plaatsen moderne cv-ketels en zonnepanelen. Hierdoor stijgt het wooncomfort, dalen de energiekosten, en verminderen we de CO2-uitstoot. Ons doel is dat al onze huurders kunnen genieten van een warme, veilige en toekomstbestendige woning.
-                        <span className='block mt-4'>
+                        <span className='block mt-5'>
                             Wilt u meer weten over onze energiebesparende maatregelen?
                         </span>
                     </p>
                     {/* Button */}
-                    <button className="w-full lg:w-[131px] h-10 text-white text-base font-[500] rounded-lg mt-3" style={{
+                    <button className="w-full lg:w-[131px] h-10 text-white text-base font-[500] rounded-lg mt-5" style={{
                         background: 'linear-gradient(84.67deg, #FF6B38 0%, #FFD201 100%)'
                     }}>
                         Inschrijven
@@ -96,7 +96,7 @@ const MainContent = () => {
 
                 {/* Image */}
                 <div className="relative flex justify-center">
-                    <img src={inbox} alt="view" className="w-full max-w-[498px] h-auto object-cover z-20 rounded-xl" />
+                    <img src={inbox} alt="view" className="w-full lg:w-[498px] lg:h-[372px] object-cover z-20 rounded-xl" />
                     <div className='hidden lg:block absolute w-1/3 h-1/3 bottom-[-5%] right-[-5%] transform rotate-[18.66deg] lg:w-[140.3px] lg:h-[171.3px] lg:bottom-[-12px] lg:right-[-38px]'>
                         <img src={blob3} alt="view" className="absolute bottom-0 right-0 w-full h-full z-10 transform rotate-[-18.66deg] mix-blend-multiply" />
                     </div>

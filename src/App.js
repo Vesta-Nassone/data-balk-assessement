@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import MainContent from "./components/MainContent";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="">
       <Navbar />
       <Header />
+      <MainContent/>
     </div>
   );
 }

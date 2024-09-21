@@ -11,7 +11,15 @@ const Header = () => {
     return (
         <header className="font-poppins relative w-full h-[560px] bg-cover bg-no-repeat mt-20" style={{ backgroundImage: `url(${header})` }}>
             {/* Overlay to make text more visible */}
-            <div className="absolute inset-0 bg-black opacity-10"></div>
+            {/* <div className="absolute inset-0 bg-black opacity-10"></div> */}
+
+            {/* Blob 4 (Top-left corner) */}
+            <div className='z-10 absolute top-0 left-0 w-[1088.58px] h-[514.13px] bg-inherit bg-no-repeat object-cover mix-blend-multiply' style={{ backgroundImage: `url(${blob4})`, backgroundPosition: 'top left' }}>
+            </div>
+
+            {/* Blob 5 (Right side) */}
+            <div className='z-10 absolute top-0 right-0 w-[1088.58px] h-[580px] bg-inherit bg-no-repeat object-cover mix-blend-multiply' style={{ backgroundImage: `url(${blob5})`, backgroundPosition: 'right' }}>
+            </div>
 
             {/* Foreground Content */}
             <div className="relative flex flex-col items-center justify-end h-full text-center px-4">

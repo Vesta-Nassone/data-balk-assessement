@@ -5,9 +5,9 @@ import profile from '../images/profile.svg';
 
 const Navbar = () => {
     return (
-        <nav className="font-poppins bg-white fixed top-0 left-0 w-full shadow-md">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between items-center h-16">
+        <nav className="font-poppins bg-white fixed top-0 left-0 w-full shadow-nav">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-50">
+                <div className="flex justify-between items-center h-20">
                     {/* Logo section */}
                     <div className="flex-shrink-0">
                         <img src={logo} className="w-[208px] h-[40px]" alt="logo" />

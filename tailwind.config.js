@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
+        overlock: ['Overlock', 'sans-serif']
       },
       boxShadow: {
         custom: '0 2px 10px rgba(0,0,0,.2);',
